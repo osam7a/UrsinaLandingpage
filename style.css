@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    background-image: url("https://www.ursinaengine.org/background_header.png");
+    background-repeat: no-repeat;
+    color: #333333!important;
+    background-position: center;
+    background-size: cover;
+    height: 35em;
+    image-rendering: pixelated;
+    padding: 1.5rem!important;
+    font-family: Lato, Arial, Sans-Serif;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+.subtitle {
+    font-size: 2.25rem;
+}
+
+.btn-primary {
+    box-shadow: 5px 20px 40px #00000057!important;
+    transition: .2s;
+}
+
+.btn-primary:hover {
+    background-color: #88a959!important;
+    border-color: #88a959!important;
+    transform: scale(1.05);
+}
+
+purple {
+    color: var(--bs-purple)!important;
+}
+
+olive {
+    color: olive!important;
+}
+
+green {
+    color: var(--bs-green)!important;
+}
+
+yellow {
+    color: darkgoldenrod!important;
+}
+
+gray {
+    color: var(--bs-gray-500)!important;
+}
+
+.sect {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.list-item {
+    font-size: 1.25rem;
+}
+
+.code-color {
+    background-color: whitesmoke;
+    font-family: monospace;
+    overflow: auto!important;
+}
